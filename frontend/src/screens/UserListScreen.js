@@ -29,7 +29,7 @@ const UserListScreen = ({ history }) => {
   const deleteHandler = (id) => {
     if (window.confirm('Are you sure')) {
       dispatch(deleteUser(id))
-      history.push('/admin/userlist')
+      history.push("/admin/userlist");
     }
   }
 
